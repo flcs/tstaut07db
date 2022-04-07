@@ -1,0 +1,45 @@
+{
+	"fornecedor": [
+		{ "id": 1, "cnpj": "11.111.111.1111/11", "nome": "COFAP",	"telefone": "22 2222-2222", "email": "contato@cofap.com.br", "dias_entrega": 15, "obs": "encontrar alternativo"  },
+		{ "id": 2, "cnpj": "11.111.111.1111/11", "nome": "Metal Leve",	"telefone": "22 2222-2222", "email": "contato@leve.com.br", "dias_entrega": 10, "obs": ""  },
+		{ "id": 3, "cnpj": "11.111.111.1111/11", "nome": "Bosch",	"telefone": "22 2222-2222", "email": "contato@bosch.com.br", "dias_entrega": 5, "obs": "empurra vela"  }
+	],
+	"orcamento_compras": [
+		{ "id": 1, "fornecedor": 1, "data_solicitacao": "2022/04/01", "data_faturamento": "2022/04/01", "valor": 1000.00, "data_entrega": "2022/04/16", "estado": "cancelado" },
+		{ "id": 2, "fornecedor": 1, "data_solicitacao": "2022/04/01", "data_faturamento": "2022/04/01", "valor": 1000.00, "data_entrega": "2022/04/16", "estado": "editando" },
+		{ "id": 3, "fornecedor": 2, "data_solicitacao": "2022/04/01", "data_faturamento": "2022/04/01", "valor": 1000.00, "data_entrega": "2022/04/16", "estado": "enviado" },
+		{ "id": 4, "fornecedor": 3, "data_solicitacao": "2022/04/01", "data_faturamento": "2022/04/01", "valor": 1000.00, "data_entrega": "2022/04/16", "estado": "faturado" },
+		{ "id": 5, "fornecedor": 2, "data_solicitacao": "2022/04/01", "data_faturamento": "2022/04/01", "valor": 1000.00, "data_entrega": "2022/04/16", "estado": "entregue" }
+	],
+	"orcamento_compra_produtos": [
+		{ "id": 1, "orcamento_compra": 1, "produto": 1, "preco": 10.00, "quantidade": 1000.0, "desconto": 0.00 },
+		{ "id": 2, "orcamento_compra": 1, "produto": 2, "preco": 1.00, "quantidade": 10000.0, "desconto": 0.01 },
+		{ "id": 3, "orcamento_compra": 1, "produto": 3, "preco": 5.00, "quantidade":   500.0, "desconto": 0.00 },
+		{ "id": 4, "orcamento_compra": 1, "produto": 4, "preco": 15.00, "quantidade":  100.0, "desconto": 0.05 }
+	], 
+	"categorias": [
+		{ "id": 1, "nome": "amortecedor" },
+		{ "id": 2, "nome": "pistão" },
+		{ "id": 3, "nome": "pastilha" },
+		{ "id": 4, "nome": "bico injetor" }
+	],
+	"fornecedor_produtos": [
+		{ "id":  1, "fornecedor": 1, "produto": 1, "ultimo_preco": 11.00  },
+		{ "id":  2, "fornecedor": 1, "produto": 2, "ultimo_preco": 12.00  },
+		{ "id":  3, "fornecedor": 1, "produto": 3, "ultimo_preco": 13.00  },
+		{ "id":  4, "fornecedor": 1, "produto": 4, "ultimo_preco": 14.00  },
+		{ "id":  5, "fornecedor": 2, "produto": 3, "ultimo_preco": 15.00  },
+		{ "id":  6, "fornecedor": 2, "produto": 4, "ultimo_preco": 16.00  },
+		{ "id":  7, "fornecedor": 2, "produto": 5, "ultimo_preco": 17.00  },
+		{ "id":  8, "fornecedor": 2, "produto": 6, "ultimo_preco": 18.00  },
+		{ "id":  9, "fornecedor": 3, "produto": 1, "ultimo_preco": 19.00  },
+		{ "id": 10, "fornecedor": 3, "produto": 6, "ultimo_preco": 20.00  },
+		{ "id": 11, "fornecedor": 3, "produto": 7, "ultimo_preco": 21.00  },
+		{ "id": 12, "fornecedor": 3, "produto": 8, "ultimo_preco": 22.00  }
+	],
+	"profile": {
+	    "name": "typicode"
+	}
+}
+
+
