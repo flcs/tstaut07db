@@ -36,7 +36,7 @@
 		{ "id": 10, "fornecedor": 3, "produto": 6, "ultimo_preco": 20.00  },
 		{ "id": 11, "fornecedor": 3, "produto": 7, "ultimo_preco": 21.00  },
 		{ "id": 12, "fornecedor": 3, "produto": 8, "ultimo_preco": 22.00  }
-	}
+	]
 }
 
 
